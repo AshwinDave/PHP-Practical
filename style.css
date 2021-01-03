@@ -14,7 +14,7 @@
 
 #booking {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url('background.jpg');
+	background-image: url('1564399.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -26,7 +26,7 @@
 	right: 0;
 	bottom: 0;
 	top: 0;
-	background: rgba(47, 103, 177, 0.6);
+	background: rgba(0, 0, 0, 0.6);
 }
 
 .booking-form {
@@ -136,3 +136,7 @@
 	font-size: 16px;
 	color: rgba(255, 255, 255, 0.8);
 }
+
+label{margin-left: 20px;}
+#datepicker{width:180px; margin: 6px 20px 20px 0px;}
+#datepicker > span:hover{cursor: pointer;}
