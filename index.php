@@ -1,12 +1,12 @@
 <?php 
-/* DATABASE Connection*/
+/* DATABASE Connection */
 include "config/db_conf.php";
 include "config/db_functions.php";
 $conn=db_connect();
 $errors_name = $errors_number = $errors_email = $errors_days = $errors_time = $errors_date =''; /* Error Variable Defined*/
 if(isset($_POST['booking_submit'])){
 
-	$user_name 	 = mysqli_real_escape_string($conn, $_POST['user_name']);
+	$user_name   = mysqli_real_escape_string($conn, $_POST['user_name']);
 	$user_number = mysqli_real_escape_string($conn, $_POST['user_number']);
 	$user_email  = mysqli_real_escape_string($conn, $_POST['user_email']);
 	$user_days   = mysqli_real_escape_string($conn, $_POST['user_days']);
