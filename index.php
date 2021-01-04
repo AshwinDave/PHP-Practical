@@ -90,7 +90,7 @@ if(isset($_POST['booking_submit'])){
 
 									<div class="form-group">
 										<span class="form-label">Email ID</span>
-										<input class="form-control" name="user_email" type="text" placeholder="Enter your Email ID">
+										<input class="form-control" name="user_email" type="email" placeholder="Enter your Email ID">
 										<span class="error"><?php echo $errors_email; ?></span>
 									</div>
 
