@@ -14,7 +14,7 @@
 
 #booking {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url('1564399.jpg');
+	background-image: url('images/1564399.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -137,6 +137,25 @@
 	color: rgba(255, 255, 255, 0.8);
 }
 
-label{margin-left: 20px;}
-#datepicker{width:180px; margin: 6px 20px 20px 0px;}
-#datepicker > span:hover{cursor: pointer;}
+label{
+	margin-left: 20px;
+}
+#datepicker{
+	width:180px; margin: 6px 20px 20px 0px;
+}
+#datepicker > span:hover{
+	cursor: pointer;
+}
+.booking_data_wrap{
+	margin-left: 228px;
+	margin-top:10px;
+}
+.booking_data_wrap a{
+	color: white;
+}
+table th,td{
+	color: white;
+}
+span.error {
+    color: red;
+}
